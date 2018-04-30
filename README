@@ -1,0 +1,44 @@
+/*@authors Melchor Dominguez & Clinton Bryson
+ * @version 12/7/2016
+ * A logical extension to project three to improve user interface to poetry
+ * writer by changing it from command-line to web-based.
+ *
+ * To test the web application you will need 2 terminals.
+ *  On the first terminal:
+ *      - You must be in the project4/app directory and do the following
+ *          command
+ *              node project4.js
+ *  On the second terminal:
+ *      - X11 forwarding must be running on the terminal 
+ *      - You can run 1 of two commands to execute a browser running on agora
+ *              firefox or 
+ *              iceweasel
+ *      - In the iceweasel/firefox url field you enter the following:
+ *              localhost:3012 
+ *          due to the port being 3012 in the project4.js file.
+ *
+ * For part B: you will enter an input file, number of stanzas, number of lines,
+ * number of words, and click submit on the home page.
+ *      - After such, the poem will be printed on the page localhost:3012/makePoem
+ *      - The new lines characters "/n" are not recognized on the webpage
+ *      - The input text file must be located in the app directory
+ *          A file rbbrrg.txt is provided.
+ *
+ * For completion purposes: The following changes were make to make_poem.js
+ * *Melchor's version of project 2 was used as the starting point for make_poem.js
+ *  & data_structures.js
+ *      - The probArray paramater was removed from all functions and is no longer used
+ *      - instead of using probArray for the probability in pickFirst word &
+ *          pickNextWord, the math function Math.random() was used instead.
+ *      - The dataStruct boolean was also removed from the main file as the 
+ *          project does not call for use of the boolean
+ *
+ * The data_structures.js file has no new modifcations from project 2
+ *
+ * To avoid getting a csurf error the following changes were made in home.handlebars:
+ *      -the value for "_csrf" was changed from csrf to _csrfToken
+ *      -Thus, the code was modified to:
+ *          <input type="hidden" name="_csrf" value="{{_csrfToken}}">
+ *
+ *
+ */

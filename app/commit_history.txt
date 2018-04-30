@@ -1,0 +1,17 @@
+commit 94bae1b11f2d342ec7dd5d12a7079732afc73048 (HEAD -> master)
+Author: Melchor Dominguez <mdominguez1@agora.cs.wcu.edu>
+Date:   Thu Dec 1 14:55:21 2016 -0500
+
+    Third Version
+
+commit 054a0872d7b5c2b2292b2373ba4658ecd15ee348
+Author: Melchor Dominguez <mdominguez1@agora.cs.wcu.edu>
+Date:   Wed Nov 30 19:56:56 2016 -0500
+
+    second version
+
+commit 57f5954ac879808843321e80cb340feef5ea241b
+Author: Melchor Dominguez <mdominguez1@agora.cs.wcu.edu>
+Date:   Wed Nov 30 19:38:28 2016 -0500
+
+    Initial commit
